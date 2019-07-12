@@ -4,14 +4,11 @@
   margin: 0;
   padding: 0;
 
-
+  background: black;
 }
 
-html {
-  background: url(images/football.jpg) no-repeat center center fixed;
 
-  background-attachment: fixed;
-}
+
 
 header {
   position: absolute;
