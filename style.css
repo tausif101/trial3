@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+html {
+  background: url(images/football.jpg) no-repeat center center fixed;
+
+  background-attachment: fixed;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header .logo {
+  color: #fff;
+  height: 50px;
+  background: transparent;
+  line-height: 50px;
+  font-size: 34px;
+  float: left;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: "Slabo 27px", serif;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+  color: rgb(104, 216, 236);
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  background: rgb(104, 216, 236);
+}
+
+.menu-toggle {
+  color: #fff;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
